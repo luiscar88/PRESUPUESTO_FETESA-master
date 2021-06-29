@@ -204,6 +204,7 @@ svg {
 
 table {
   border-collapse: collapse;
+    margin-top: 29px;
 }
 
 caption {
@@ -237,7 +238,7 @@ button,
 select,
 optgroup,
 textarea {
-  margin: 0;
+  margin: 33px 0 0 4px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -4333,7 +4334,8 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+    top: -4px;
+    left: -12px;
 }
 
 .navbar .container,

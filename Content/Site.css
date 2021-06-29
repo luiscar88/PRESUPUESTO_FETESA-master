@@ -31,3 +31,11 @@ textarea {
         padding: 0;
     }
 }
+
+.imagen{
+    background-color:Highlight;
+}
+
+.fas fa-user-circle{
+    font-size:50px;
+}
