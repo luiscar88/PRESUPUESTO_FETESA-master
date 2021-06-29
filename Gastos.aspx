@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="PRESUPUESTO_FETESA.SiteMaster" %>
+﻿
 
 <!DOCTYPE html>
 
@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %>Ferreteria Fetesa</title>
+    <title><%: Page.Title %> - Ferreteria Fetesa</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -43,36 +43,27 @@
                 <img  src ="https://www.afenic.com.ni/wp-content/uploads/2017/05/logo-fetesa.jpg" width="100"> <img src="https://incasa.com.ni/wp-content/uploads/2018/09/FETESA-DOIT-LOGO-300x194.png" width="80" height="50" />  
 
             </div>
-        <p>
+        <br />
         <div class="navbar navbar-inverse navbar-fixed-top justify-content-center">
         <div class="container d-flex justify-content-center">
                 <div class="navbar-header d-flex">
                     <ul class="nav navbar-collapse">
                         <li class="px-5"><a runat="server" href="~/">INICIO</a></li>
-                         <li class="px-5"><a runat="server" href="~/About">PERIODO PRESUPUESTADO</a>
-                        <li class="px-5"><a runat="server" href="~/Contact">PRESUPUESTO</a></li> 
-                        <li class="px-5"><a runat="server" href="~/Login">Login</a></li>
+                        <li class="px-5"><a runat="server" href="~/About">PERIODO PRESUPUESTADO</a>
+                        <li class="px-5"><a runat="server" href="~/Contact">PRESUPUESTO</a></li>
+                        <li class="px-5"><a runat="server" href="~/Login">GASTOS OPERATIVOS</a></li>
                     </ul>
                  
                 </div>
 
             </div>
         </div>
-            </p>
-        <div class="container body-content d-flex justify-content-center">
-            <p>
-            <h3>Bienvenido al sistema presupuesto FETESA</h3>
-                </p>
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <div class="menu d-flex justify-content-center">
-                <img src="https://lamula.pe/media/uploads/t/82c20d95a08bd7947c9e9b35b8d94783.jpg" height="500"/>
-            </div>
+            <p>&copy; <%: DateTime.Now.Year %> - Ferreteria Fetesa</p>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Ferreteria Fetesa</p>
+                
             </footer>
-        </div>
+     
 
     </form>
 </body>
