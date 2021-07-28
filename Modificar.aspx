@@ -62,7 +62,6 @@
                         <li class="px-5"><a runat="server" href="~/">INICIO</a></li>
                         <li class="px-5"><a runat="server" href="~/About">PERIODO PRESUPUESTADO</a>
                         <li class="px-5"><a runat="server" href="~/Contact">PRESUPUESTO</a></li>   
-                        <li class="px-5"><a runat="server" href="~/Gastos">GASTOS OPERATIVOS</a></li>
                     </ul>
                  
                 </div>
@@ -84,8 +83,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ID Periodo&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox3" runat="server" Height="19px" Width="100px"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-        <br />
+        Total Prespuesto<br />
         <br />
         <p class="auto-style1">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Descripcion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
